@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.9.7"
-  },
   "scripts": {
+    "vite": "vitepress dev src",
     "dev": "vuepress dev src",
     "build": "vuepress build src"
+  },
+  "dependencies": {
+    "vitepress": "^0.22.4",
+    "vue": "^3.2.33"
   }
 }
